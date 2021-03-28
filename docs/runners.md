@@ -5,7 +5,7 @@ slug: /runners
 
 ## ARM Templates (Azure Resource Manager)
 
-Support for ARM template deployments is currently in preview. See the [examples/arm-azure-hello-world](examples/arm-azure-hello-world)
+Support for ARM template deployments is currently in preview. See the [examples/arm-azure-hello-world](https://github.com/Optum/runiac/tree/main/examples/arm-azure-hello-world)
 example for a quick start project you can refer to.
 
 ### Configuration
