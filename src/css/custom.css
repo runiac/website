@@ -15,6 +15,16 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+  --ifm-navbar-link-color: #474747;
+  --ifm-font-color-base: #474747;
+}
+
+html[data-theme="dark"] {
+  --ifm-navbar-link-color: white;
+  --ifm-font-color-base: white;
+  /* --ifm-color-primary: #4e89e8;
+  --ifm-color-primary-dark: #5a91ea; */
+  /* any other colors you wish to overwrite */
 }
 
 .docusaurus-highlight-code-line {
@@ -22,4 +32,9 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme="light"]
+  .button.button--secondary.button--outline:not(.button--active):not(:hover) {
+  color: white;
 }

@@ -2,7 +2,7 @@
 module.exports = {
   title: "RunIaC",
   tagline: "Run Infrastructure as Code Anywhere with Ease.",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://runiac.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -25,7 +25,7 @@ module.exports = {
         },
         { to: "blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/optum/runiac",
           label: "GitHub",
           position: "right",
         },
@@ -65,7 +65,7 @@ module.exports = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/optum/runiac",
             },
           ],
         },
