@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import Layout from "@theme/Layout";
+import TerminalTabs from "../theme/TerminalTabs";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
@@ -65,6 +66,8 @@ export default function Home() {
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
+          {/* <div className="row"> */}
+          {/* <div className="col col--6"> */}
           <h1 className="hero__subtitle">
             {/* {" "} */}
             <code>> runiac deploy</code>
@@ -83,12 +86,24 @@ export default function Home() {
               )}
               to={useBaseUrl("docs/")}
             >
-              Getting Started
+              Get Started
             </Link>
           </div>
         </div>
+        {/* <div className="col col--6">
+              <TerminalTabs></TerminalTabs>
+            </div>
+          </div> */}
+        {/* </div> */}
       </header>
       <main>
+        <section className={styles.terminalTabs}>
+          <div className="container">
+            <div className="row">
+              <TerminalTabs></TerminalTabs>
+            </div>
+          </div>
+        </section>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">

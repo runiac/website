@@ -22,6 +22,7 @@
 html[data-theme="dark"] {
   --ifm-navbar-link-color: white;
   --ifm-font-color-base: white;
+  --ifm-tabs-color-active: white;
   /* --ifm-color-primary: #4e89e8;
   --ifm-color-primary-dark: #5a91ea; */
   /* any other colors you wish to overwrite */
@@ -37,4 +38,8 @@ html[data-theme="dark"] {
 html[data-theme="light"]
   .button.button--secondary.button--outline:not(.button--active):not(:hover) {
   color: white;
+}
+
+.tabs-container {
+  margin: 0 auto;
 }
