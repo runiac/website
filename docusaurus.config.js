@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "RunIaC",
-  tagline: "Run Infrastructure as Code Anywhere with Ease.",
+  tagline: "Run Your Infrastructure as Code Anywhere with Ease.",
   url: "https://runiac.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -23,7 +23,7 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
-        { to: "blog", label: "Blog", position: "left" },
+        // { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/optum/runiac",
           label: "GitHub",
