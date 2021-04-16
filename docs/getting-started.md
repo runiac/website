@@ -3,15 +3,15 @@ title: Get Started
 slug: /getting-started
 ---
 
-## Step 1: Generate a new Docusaurus site
+## Step 1: Pull down the runaic examples
 
-If you haven't already, generate a new Docusaurus site using the classic template:
+The examples are in the same repository as the runiac source code.
 
 ```shell
-npx @docusaurus/init@latest init my-website classic
+git clone https://github.com/Optum/runiac.git
 ```
 
-## Step 2: Start your Docusaurus site
+## Step 2: Choose your example
 
 Run the development server in the newly created `my-website` folder:
 

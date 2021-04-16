@@ -7,7 +7,7 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Documentation",
+      label: "Fundamentals",
       items: ["steps", "tracks", "runners"],
     },
   ],

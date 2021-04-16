@@ -59,10 +59,10 @@ module.exports = {
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
+            // {
+            //   label: "Blog",
+            //   to: "blog",
+            // },
             {
               label: "GitHub",
               href: "https://github.com/optum/runiac",
@@ -82,11 +82,11 @@ module.exports = {
           // Please change this to your repo.
           editUrl: "https://github.com/runiac/website/edit/master/",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl: "https://github.com/runiac/website/edit/master/",
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl: "https://github.com/runiac/website/edit/master/",
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
