@@ -8,7 +8,7 @@ slug: /get-started-arm
 If you haven't already, generate a new Runiac project using the azure arm starter:
 
 ```shell
-runiac new my-project --from examples/azure-arm
+runiac new my-project --from runiac/examples/azure-arm
 ```
 
 ## Step 2: Start your Docusaurus site
