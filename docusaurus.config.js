@@ -23,6 +23,12 @@ module.exports = {
           label: "Docs",
           position: "left",
         },
+        {
+          to: "docs/steps",
+          activeBasePath: "docs",
+          label: "Fundamentals",
+          position: "left",
+        },
         // { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/optum/runiac",
@@ -40,6 +46,8 @@ module.exports = {
             {
               label: "Get Started",
               to: "docs/",
+              label: "Fundamentals",
+              to: "docs/steps",
             },
           ],
         },

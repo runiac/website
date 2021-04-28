@@ -5,9 +5,7 @@ slug: /f/containers
 
 To enable complete portability and repeatability of iac projects Runiac runs all deploys in a docker container. These containers contain the `core` runiac binary that executes all runners along with common cloud tooling such as CLIs and SDKs. Runiac provides multiple officially supported containers curated for multiple cloud use cases. The default container is a kitchen sink supporting GCP, AWS, Azure deployments.
 
-Override the default container for your project needs by using the `--container` argument or configuration.s
-
-## Working with Runiac Containers
+Override the default container for your project needs by using the `--container` argument or configuration.
 
 The container benefit comes with additional configuration nuances, espcially for local development. No problem, we have solutions to these items.
 

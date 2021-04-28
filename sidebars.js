@@ -8,7 +8,13 @@ module.exports = {
     {
       type: "category",
       label: "Fundamentals",
-      items: ["steps", "tracks", "runners", "containers"],
+      items: [
+        "steps",
+        "tracks",
+        "runners",
+        "containers",
+        "ephemeral-environments",
+      ],
     },
   ],
 };
