@@ -9,6 +9,11 @@ module.exports = {
   favicon: "img/favicon/logo-transparent.png",
   organizationName: "optum", // Usually your GitHub org/user name.
   projectName: "runiac", // Usually your repo name.
+  scripts: [
+    "/__/firebase/8.4.3/firebase-app.js",
+    "/__/firebase/8.4.3/firebase-analytics.js",
+    "/__/firebase/init.js",
+  ],
   themeConfig: {
     navbar: {
       title: "",
