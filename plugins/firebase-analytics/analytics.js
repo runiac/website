@@ -8,8 +8,8 @@ export default (function () {
   return {
     onRouteUpdate({ location }) {
       const page_path = location.pathname + location.search;
-      analytics().setCurrentScreen(page_path);
-      analytics().logEvent("page_view", { page_path });
+      firebase.analytics().setCurrentScreen(page_path);
+      firebase.analytics().logEvent("page_view", { page_path });
     },
   };
 })();
