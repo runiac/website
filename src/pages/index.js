@@ -6,6 +6,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import favicon from "../../static/img/favicon/logo-transparent.png";
 
 const features = [
   {
@@ -62,7 +63,8 @@ export default function Home() {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Run IAC Anywhere with Ease"
+      image={favicon}
     >
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
