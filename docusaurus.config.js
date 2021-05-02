@@ -1,3 +1,5 @@
+const path = require("path");
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "RunIaC",
@@ -6,15 +8,20 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
+  plugins: [path.resolve(__dirname, "plugins", "firebase-analytics")],
   favicon: "img/favicon/logo-transparent.png",
   organizationName: "optum", // Usually your GitHub org/user name.
   projectName: "runiac", // Usually your repo name.
-  scripts: [
-    "/__/firebase/8.4.3/firebase-app.js",
-    "/__/firebase/8.4.3/firebase-analytics.js",
-    "/__/firebase/init.js",
-  ],
   themeConfig: {
+    firebaseAnalytics: {
+      apiKey: "AIzaSyDavZvPsf9Egx4sBwbE7gIZO_yLY3jxc7k",
+      authDomain: "runiac-mg.firebaseapp.com",
+      projectId: "runiac-mg",
+      storageBucket: "runiac-mg.appspot.com",
+      messagingSenderId: "1098849270526",
+      appId: "1:1098849270526:web:1711c8a6a13d92e8f443af",
+      measurementId: "G-99DB4DQZ88",
+    },
     navbar: {
       title: "",
       logo: {

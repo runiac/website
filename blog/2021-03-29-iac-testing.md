@@ -8,7 +8,7 @@ author_image_url: https://avatars.githubusercontent.com/u/4986192?v=4
 tags: [iac, testing]
 ---
 
-Yes. However the answer is more nuanced following the common paradigm of 'it depends'. In one project, we were responsible for deploying and maintaining base infrastructure across 100's of cloud accounts in aws, azure and gcp - manually verifying changes in such an environment is not feasibly possible nor desired, all verification must be automated.
+Yes. However the answer is more nuanced following the common paradigm of 'it depends'. In one project, we were responsible for deploying and maintaining base infrastructure across 100's of cloud accounts in aws, azure and gcp - manually verifying changes in such an environment is not feasibly possible nor desired, all verification must be automated. We learned to appreciate the value of valuable tests.
 
 ### Trust your declarative iac tool
 
