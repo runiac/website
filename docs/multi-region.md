@@ -5,9 +5,11 @@ slug: /multi-region
 
 Runiac is designed from the ground up to enable multi-region deployments with clean code and minimal changes baked directly into the `runiac deploy` command.
 
-> No more required terraform loops or complex pipeline scripting.
+> No more terraform loops or complex pipeline scripting.
 
 Runiac steps perform two types of deployments during a `runiac deploy`. One type is `primary`, the other type `regional`. To perform multi-region deployments we will focus on the `regional` deployment type. These types are described in more detail in the steps [documentation](/docs/steps#regional)
+
+![](/gif/tf-az-hello-world-multi-region-success.gif)
 
 ## Configuration
 
