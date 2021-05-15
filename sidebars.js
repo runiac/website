@@ -14,6 +14,7 @@ module.exports = {
         "runners",
         "containers",
         "ephemeral-environments",
+        "multi-region",
       ],
     },
   ],
