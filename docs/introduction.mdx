@@ -1,0 +1,59 @@
+---
+title: Introduction
+slug: /
+---
+
+import TerminalTabs from "@theme/TerminalTabs";
+
+- Runiac will help you **adopt the cloud at any scale in no time.**
+
+- Building a custom delivery architecture is expensive. Instead, **focus on your cloud** and just write infrastructure as code.
+
+- Ready for more? Use **advanced features** like multi-region deployments, ephemeral environments and tracks.
+
+- Runiac is a development tool for running infrastructure as code such as Terraform and ARM Templates. Runiac is designed from the ground up for you to spend more time improving your app by letting runiac handle the busy work of automating infrastucture development.
+
+- Runiac was born out of developing a codified world class global multi-cloud platform for a fortune six company with only 5 engineers.
+
+Once you have runiac installed, run any iac with `runiac deploy`:
+
+<TerminalTabs></TerminalTabs>
+
+Runiac's primary feature is enabling easy, meaningful local development that mimics a production deployment.  
+This enables two large benefits:
+
+<!-- > runiac core is meant to be run within an image. We do **not** recommend running the `runiac` core binary in another image, as it might not work.
+
+We'd love to hear from you! Submit github issues for questions, issues or feedback. -->
+
+## Features
+
+Early adopters have seen a 200% productivity increase in iac development from these simple benefits!
+
+- [**Ephemeral Environments**](/docs/f/ephemeral)
+  - Changes can be tested quickly and reliably in a cloud environment from a local machine
+  - Spin up and down developer cloud environments from local machines
+  - Spin up and down CI cloud environments from pull requests
+- [**Docker**](/docs/f/containers)
+  - Runiac bakes every project into a docker container for complete portability and consistency
+- [**Multi-Region Deployments**](/docs/multi-region)
+  - Deploy to as many regions as desired while keeping your code DRY and free of loops
+- [**Pluggable**](/docs/runners)
+  - Utilize your iac tool of choice with runners
+- [**Declarative orchestration**](/docs/steps)
+  - Execution logic is built into runiac, simplify your cloud pipelines and local development to a single `runiac deploy` command
+
+## Design Principles
+
+- **No pipeline code**
+  - Adding new features to an iac project should not require any changes to the pipeline or local development
+- **Run anywhere**
+  - Every deployment should be repeatable from any laptop and ci/cd system.
+- **One command**
+  - Pipelines and local development should always stay in sync by leveraging the same command
+- **Local cloud deployments**
+  - Every cloud developer should be able to quickly and safely deploy and test infrastructure changes from their local machine
+- **Little to learn**
+  - Runiac should be easy to learn and covering most deployments needs out of the box
+- **Intuitive**
+  - Simple folder structures for orchestrating multiple iac deployments keeping your code simple and clean

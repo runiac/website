@@ -1,9 +1,10 @@
 module.exports = {
   docs: [
+    "introduction",
     {
       type: "category",
       label: "Getting Started",
-      items: ["intro", "install", "get-started-azu-terraform"],
+      items: ["install", "get-started-azu-terraform"],
     },
     {
       type: "category",
