@@ -38,9 +38,9 @@ module.exports = function (context) {
     },
 
     injectHtmlTags() {
-      //   if (!isProd) {
-      //     return {};
-      //   }
+      // if (!isProd) {
+      //   return {};
+      // }
       return {
         headTags: [
           {
@@ -52,8 +52,7 @@ module.exports = function (context) {
           {
             tagName: "script",
             attributes: {
-              src:
-                "https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js",
+              src: "https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js",
             },
           },
           // https://developers.google.com/analytics/devguides/collection/analyticsjs/#alternative_async_tag
