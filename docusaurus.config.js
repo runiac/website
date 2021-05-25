@@ -13,6 +13,9 @@ module.exports = {
   organizationName: "optum", // Usually your GitHub org/user name.
   projectName: "runiac", // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      respectPrefersColorScheme: true,
+    },
     firebaseAnalytics: {
       apiKey: "AIzaSyDavZvPsf9Egx4sBwbE7gIZO_yLY3jxc7k",
       authDomain: "runiac-mg.firebaseapp.com",
