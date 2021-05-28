@@ -6,7 +6,7 @@ slug: /get-started-azu-terraform
 ## Step 0: Requirements
 
 - An Azure subscription [(free to start)](https://azure.microsoft.com/en-us/free/)
-- Docker
+- [Docker](https://docs.docker.com/get-docker/)
 
 ## Step 1: Generate a new Runiac project
 
