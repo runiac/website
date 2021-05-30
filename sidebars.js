@@ -7,6 +7,7 @@ module.exports = {
       items: [
         "install",
         "get-started-terraform-azu",
+        "get-started-arm-azu",
         "get-started-terraform-gcp",
       ],
     },
