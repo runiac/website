@@ -1,5 +1,5 @@
 ---
-title: Azure Terraform
+title: Azure - Terraform
 slug: /get-started-azu-terraform
 ---
 

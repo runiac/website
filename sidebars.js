@@ -4,7 +4,11 @@ module.exports = {
     {
       type: "category",
       label: "Getting Started",
-      items: ["install", "get-started-azu-terraform"],
+      items: [
+        "install",
+        "get-started-terraform-azu",
+        "get-started-terraform-gcp",
+      ],
     },
     {
       type: "category",
