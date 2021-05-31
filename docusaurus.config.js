@@ -13,6 +13,10 @@ module.exports = {
   organizationName: "optum", // Usually your GitHub org/user name.
   projectName: "runiac", // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: "289ca65961ef21183f176fb7bb1a3858",
+      indexName: "runiac",
+    },
     colorMode: {
       respectPrefersColorScheme: true,
     },
