@@ -48,11 +48,17 @@ module.exports = {
           label: "Fundamentals",
           position: "left",
         },
+        {
+          label: "Starters",
+          href: "https://github.com/topics/runiac-starter",
+        },
         // { to: "blog", label: "Blog", position: "left" },
+        // right
         {
           href: "https://github.com/optum/runiac",
-          label: "GitHub",
           position: "right",
+          className: "header-github-link",
+          "aria-label": "GitHub repository",
         },
       ],
     },
