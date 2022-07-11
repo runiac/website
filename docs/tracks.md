@@ -24,3 +24,7 @@ step1_sample/
 step1_another_one/
 runiac.yml
 ```
+
+#### Pre-track
+
+A pre-track is a track that runs before all other tracks. After this track completes, the remaining tracks are executed in parallel. If the pre-track execution fails, no other tracks will be attempted. To create a pre-track, create a directory called _pretrack in the tracks directory.
