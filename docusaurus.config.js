@@ -14,7 +14,8 @@ module.exports = {
   projectName: "runiac", // Usually your repo name.
   themeConfig: {
     algolia: {
-      apiKey: "289ca65961ef21183f176fb7bb1a3858",
+      apiKey: "2d118141c4193a047d2ca58c3491e188",
+      appId: '2WANC60WN9',
       indexName: "runiac",
     },
     colorMode: {
